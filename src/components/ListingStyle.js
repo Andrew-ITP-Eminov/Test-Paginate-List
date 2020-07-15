@@ -5,11 +5,13 @@ export const ListingStyle = makeStyles((theme) => ({
         width: '100%',
     },
     paper: {
-        width: '100%',
+        width: '70%',
+        margin: '30px auto 0',
         marginBottom: theme.spacing(2),
     },
     table: {
         minWidth: 750,
+        margin: '0 auto'
     },
     visuallyHidden: {
         border: 0,

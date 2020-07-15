@@ -91,10 +91,10 @@ function Listing({options, setOptions, rows, getListingPage}) {
                                             key={row.name}
                                             selected={isItemSelected}
                                         >
-                                            <TableCell component="th" id={labelId} scope="row" padding="none">
+                                            <TableCell align="center" component="th" id={labelId} scope="row" padding="none">
                                                 {row.name}
                                             </TableCell>
-                                            <TableCell align="left">{row.content}</TableCell>
+                                            <TableCell align="center">{row.content}</TableCell>
                                         </TableRow>
                                     );
                                 })}
